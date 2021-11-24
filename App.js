@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { ActivityIndicator, FlatList, Text, View } from 'react-native';
 
+/**
+ * This application presents a simple list of players from the example monopoly
+ * database. The code is based on the ReactNative networking example:
+ * - https://reactnative.dev/docs/network>
+ */
 export default App = () => {
   const [isLoading, setLoading] = useState(true);
   const [data, setData] = useState([]);
