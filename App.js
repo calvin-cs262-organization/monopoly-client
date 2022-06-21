@@ -25,7 +25,7 @@ export default App = () => {
                 data={data}
                 keyExtractor={({ id }, index) => id.toString()}
                 renderItem={({ item }) => (
-                    <Text>{item.id}, {item.email}, {item.name}</Text>
+                    <Text>{item.id}, {item.emailaddress}, {item.name}</Text>
                 )}
             />
         )}
