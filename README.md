@@ -8,4 +8,4 @@ supports the other CRUD operations (PUT, POST, DELETE), see:
 
 <https://reactnative.dev/docs/network>
 
-The data service is hosted on Azure.
+The data service is hosted on Azure (see the [Monopoly Service](https://github.com/calvin-cs262-organization/monopoly-service)).
