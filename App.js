@@ -18,7 +18,7 @@ export default App = () => {
             .finally(() => setLoading(false));
     }, []);
 
-    return (
+return (
         <View style={{ flex: 1, padding: 24 }}>
             {isLoading ? (
                 <ActivityIndicator />
