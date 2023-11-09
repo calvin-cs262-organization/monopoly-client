@@ -9,17 +9,17 @@ jobs:
   eslint:
     runs-on: ubuntu-latest
 
-  steps:
-    - name: check out repo
-      uses: actions/checkout@v2
+    steps:
+      - name: check out repo
+        uses: actions/checkout@v2
 
-    - name: set up node
-      uses: actions/setup-node@v3
-      with:
-        node-version: 16
+      - name: set up node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
 
-    - name: npm install
-      run: npm ci
+      - name: npm install
+        run: npm ci
 
-    - name: eslint
-      run: npm run lint
+      - name: eslint
+        run: npm run lint
