@@ -3,6 +3,7 @@
 /* eslint-disable react/jsx-filename-extension */
 /* eslint-disable func-names */
 /* eslint-disable no-undef */
+
 import React, { useEffect, useState } from 'react';
 import {
   ActivityIndicator, FlatList, Text, View,
